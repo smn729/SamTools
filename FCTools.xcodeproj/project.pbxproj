@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229B5E7119B0B45F00AD7BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E7019B0B45F00AD7BA3 /* Foundation.framework */; };
+		229B5E7619B0B45F00AD7BA3 /* FCTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5E7519B0B45F00AD7BA3 /* FCTools.h */; };
+		229B5E7819B0B45F00AD7BA3 /* FCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5E7719B0B45F00AD7BA3 /* FCTools.m */; };
+		229B5E7F19B0B45F00AD7BA3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E7E19B0B45F00AD7BA3 /* XCTest.framework */; };
+		229B5E8019B0B45F00AD7BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E7019B0B45F00AD7BA3 /* Foundation.framework */; };
+		229B5E8219B0B45F00AD7BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E8119B0B45F00AD7BA3 /* UIKit.framework */; };
+		229B5E8519B0B45F00AD7BA3 /* libFCTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */; };
+		229B5E8B19B0B45F00AD7BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229B5E8919B0B45F00AD7BA3 /* InfoPlist.strings */; };
+		229B5E8D19B0B45F00AD7BA3 /* FCToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5E8C19B0B45F00AD7BA3 /* FCToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229B5E8319B0B45F00AD7BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229B5E6519B0B45F00AD7BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229B5E6C19B0B45F00AD7BA3;
+			remoteInfo = FCTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		229B5E6B19B0B45F00AD7BA3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				229B5E7619B0B45F00AD7BA3 /* FCTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFCTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		229B5E7019B0B45F00AD7BA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		229B5E7419B0B45F00AD7BA3 /* FCTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FCTools-Prefix.pch"; sourceTree = "<group>"; };
+		229B5E7519B0B45F00AD7BA3 /* FCTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCTools.h; sourceTree = "<group>"; };
+		229B5E7719B0B45F00AD7BA3 /* FCTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCTools.m; sourceTree = "<group>"; };
+		229B5E7D19B0B45F00AD7BA3 /* FCToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229B5E7E19B0B45F00AD7BA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		229B5E8119B0B45F00AD7BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		229B5E8819B0B45F00AD7BA3 /* FCToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FCToolsTests-Info.plist"; sourceTree = "<group>"; };
+		229B5E8A19B0B45F00AD7BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		229B5E8C19B0B45F00AD7BA3 /* FCToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229B5E6A19B0B45F00AD7BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5E7119B0B45F00AD7BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B5E7A19B0B45F00AD7BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5E8519B0B45F00AD7BA3 /* libFCTools.a in Frameworks */,
+				229B5E7F19B0B45F00AD7BA3 /* XCTest.framework in Frameworks */,
+				229B5E8219B0B45F00AD7BA3 /* UIKit.framework in Frameworks */,
+				229B5E8019B0B45F00AD7BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229B5E6419B0B45F00AD7BA3 = {
+			isa = PBXGroup;
+			children = (
+				229B5E7219B0B45F00AD7BA3 /* FCTools */,
+				229B5E8619B0B45F00AD7BA3 /* FCToolsTests */,
+				229B5E6F19B0B45F00AD7BA3 /* Frameworks */,
+				229B5E6E19B0B45F00AD7BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229B5E6E19B0B45F00AD7BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */,
+				229B5E7D19B0B45F00AD7BA3 /* FCToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229B5E6F19B0B45F00AD7BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E7019B0B45F00AD7BA3 /* Foundation.framework */,
+				229B5E7E19B0B45F00AD7BA3 /* XCTest.framework */,
+				229B5E8119B0B45F00AD7BA3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229B5E7219B0B45F00AD7BA3 /* FCTools */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E7519B0B45F00AD7BA3 /* FCTools.h */,
+				229B5E7719B0B45F00AD7BA3 /* FCTools.m */,
+				229B5E7319B0B45F00AD7BA3 /* Supporting Files */,
+			);
+			path = FCTools;
+			sourceTree = "<group>";
+		};
+		229B5E7319B0B45F00AD7BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E7419B0B45F00AD7BA3 /* FCTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229B5E8619B0B45F00AD7BA3 /* FCToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E8C19B0B45F00AD7BA3 /* FCToolsTests.m */,
+				229B5E8719B0B45F00AD7BA3 /* Supporting Files */,
+			);
+			path = FCToolsTests;
+			sourceTree = "<group>";
+		};
+		229B5E8719B0B45F00AD7BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229B5E8819B0B45F00AD7BA3 /* FCToolsTests-Info.plist */,
+				229B5E8919B0B45F00AD7BA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229B5E6C19B0B45F00AD7BA3 /* FCTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229B5E9019B0B45F00AD7BA3 /* Build configuration list for PBXNativeTarget "FCTools" */;
+			buildPhases = (
+				229B5E6919B0B45F00AD7BA3 /* Sources */,
+				229B5E6A19B0B45F00AD7BA3 /* Frameworks */,
+				229B5E6B19B0B45F00AD7BA3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCTools;
+			productName = FCTools;
+			productReference = 229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		229B5E7C19B0B45F00AD7BA3 /* FCToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229B5E9319B0B45F00AD7BA3 /* Build configuration list for PBXNativeTarget "FCToolsTests" */;
+			buildPhases = (
+				229B5E7919B0B45F00AD7BA3 /* Sources */,
+				229B5E7A19B0B45F00AD7BA3 /* Frameworks */,
+				229B5E7B19B0B45F00AD7BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229B5E8419B0B45F00AD7BA3 /* PBXTargetDependency */,
+			);
+			name = FCToolsTests;
+			productName = FCToolsTests;
+			productReference = 229B5E7D19B0B45F00AD7BA3 /* FCToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229B5E6519B0B45F00AD7BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sam;
+			};
+			buildConfigurationList = 229B5E6819B0B45F00AD7BA3 /* Build configuration list for PBXProject "FCTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 229B5E6419B0B45F00AD7BA3;
+			productRefGroup = 229B5E6E19B0B45F00AD7BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229B5E6C19B0B45F00AD7BA3 /* FCTools */,
+				229B5E7C19B0B45F00AD7BA3 /* FCToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229B5E7B19B0B45F00AD7BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5E8B19B0B45F00AD7BA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229B5E6919B0B45F00AD7BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5E7819B0B45F00AD7BA3 /* FCTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B5E7919B0B45F00AD7BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5E8D19B0B45F00AD7BA3 /* FCToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229B5E8419B0B45F00AD7BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229B5E6C19B0B45F00AD7BA3 /* FCTools */;
+			targetProxy = 229B5E8319B0B45F00AD7BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229B5E8919B0B45F00AD7BA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229B5E8A19B0B45F00AD7BA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229B5E8E19B0B45F00AD7BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		229B5E8F19B0B45F00AD7BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229B5E9119B0B45F00AD7BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FCTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		229B5E9219B0B45F00AD7BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FCTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		229B5E9419B0B45F00AD7BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FCToolsTests/FCToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		229B5E9519B0B45F00AD7BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				INFOPLIST_FILE = "FCToolsTests/FCToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229B5E6819B0B45F00AD7BA3 /* Build configuration list for PBXProject "FCTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B5E8E19B0B45F00AD7BA3 /* Debug */,
+				229B5E8F19B0B45F00AD7BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229B5E9019B0B45F00AD7BA3 /* Build configuration list for PBXNativeTarget "FCTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B5E9119B0B45F00AD7BA3 /* Debug */,
+				229B5E9219B0B45F00AD7BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		229B5E9319B0B45F00AD7BA3 /* Build configuration list for PBXNativeTarget "FCToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B5E9419B0B45F00AD7BA3 /* Debug */,
+				229B5E9519B0B45F00AD7BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229B5E6519B0B45F00AD7BA3 /* Project object */;
+}
