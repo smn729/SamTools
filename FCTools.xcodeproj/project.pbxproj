@@ -16,6 +16,33 @@
 		229B5E8519B0B45F00AD7BA3 /* libFCTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */; };
 		229B5E8B19B0B45F00AD7BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229B5E8919B0B45F00AD7BA3 /* InfoPlist.strings */; };
 		229B5E8D19B0B45F00AD7BA3 /* FCToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5E8C19B0B45F00AD7BA3 /* FCToolsTests.m */; };
+		229B5F0919B0BE0900AD7BA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5F0819B0BE0900AD7BA3 /* CFNetwork.framework */; };
+		229B5F0F19B0BE6000AD7BA3 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F0C19B0BE6000AD7BA3 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229B5F1019B0BE6000AD7BA3 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F0E19B0BE6000AD7BA3 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229B5F2119B0BF4800AD7BA3 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F1419B0BF4800AD7BA3 /* DDXMLElementAdditions.m */; };
+		229B5F2219B0BF4800AD7BA3 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F1719B0BF4800AD7BA3 /* NSString+DDXML.m */; };
+		229B5F2319B0BF4800AD7BA3 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F1A19B0BF4800AD7BA3 /* DDXMLDocument.m */; };
+		229B5F2419B0BF4800AD7BA3 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F1C19B0BF4800AD7BA3 /* DDXMLElement.m */; };
+		229B5F2519B0BF4800AD7BA3 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F1E19B0BF4800AD7BA3 /* DDXMLNode.m */; };
+		229B5F2819B0C03900AD7BA3 /* DDXMLElementAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1319B0BF4800AD7BA3 /* DDXMLElementAdditions.h */; };
+		229B5F2919B0C03900AD7BA3 /* NSString+DDXML.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1619B0BF4800AD7BA3 /* NSString+DDXML.h */; };
+		229B5F2A19B0C03900AD7BA3 /* DDXML.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1819B0BF4800AD7BA3 /* DDXML.h */; };
+		229B5F2B19B0C03900AD7BA3 /* DDXMLDocument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1919B0BF4800AD7BA3 /* DDXMLDocument.h */; };
+		229B5F2C19B0C03900AD7BA3 /* DDXMLElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1B19B0BF4800AD7BA3 /* DDXMLElement.h */; };
+		229B5F2D19B0C03900AD7BA3 /* DDXMLNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F1D19B0BF4800AD7BA3 /* DDXMLNode.h */; };
+		229B5F2E19B0C03900AD7BA3 /* DDXMLPrivate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F2019B0BF4800AD7BA3 /* DDXMLPrivate.h */; };
+		229B5F2F19B0C03900AD7BA3 /* AsyncSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F0B19B0BE6000AD7BA3 /* AsyncSocket.h */; };
+		229B5F3019B0C03900AD7BA3 /* AsyncUdpSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F0D19B0BE6000AD7BA3 /* AsyncUdpSocket.h */; };
+		229B5F3B19B171D500AD7BA3 /* SamPullVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F3819B171D500AD7BA3 /* SamPullVC.m */; };
+		229B5F3C19B171D500AD7BA3 /* SamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F3A19B171D500AD7BA3 /* SamViewController.m */; };
+		229B5F4919B17D9100AD7BA3 /* SamCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F4819B17D9100AD7BA3 /* SamCircleView.m */; };
+		229B5F4E19B17DEF00AD7BA3 /* WRLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */; };
+		229B5F5019B17E1A00AD7BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5F4F19B17E1A00AD7BA3 /* UIKit.framework */; };
+		229B5F5419B17E8300AD7BA3 /* SamTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F5319B17E8300AD7BA3 /* SamTools.m */; };
+		229B5F5519B17EDC00AD7BA3 /* SamTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F5219B17E8300AD7BA3 /* SamTools.h */; };
+		229B5F5619B17EDC00AD7BA3 /* WRLoadingView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */; };
+		229B5F5719B17EDC00AD7BA3 /* SamCircleView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F4719B17D9100AD7BA3 /* SamCircleView.h */; };
+		229B5F5819B17EDC00AD7BA3 /* SamPullVC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F3719B171D500AD7BA3 /* SamPullVC.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +59,22 @@
 		229B5E6B19B0B45F00AD7BA3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				229B5F5519B17EDC00AD7BA3 /* SamTools.h in CopyFiles */,
+				229B5F5619B17EDC00AD7BA3 /* WRLoadingView.h in CopyFiles */,
+				229B5F5719B17EDC00AD7BA3 /* SamCircleView.h in CopyFiles */,
+				229B5F5819B17EDC00AD7BA3 /* SamPullVC.h in CopyFiles */,
+				229B5F2819B0C03900AD7BA3 /* DDXMLElementAdditions.h in CopyFiles */,
+				229B5F2919B0C03900AD7BA3 /* NSString+DDXML.h in CopyFiles */,
+				229B5F2A19B0C03900AD7BA3 /* DDXML.h in CopyFiles */,
+				229B5F2B19B0C03900AD7BA3 /* DDXMLDocument.h in CopyFiles */,
+				229B5F2C19B0C03900AD7BA3 /* DDXMLElement.h in CopyFiles */,
+				229B5F2D19B0C03900AD7BA3 /* DDXMLNode.h in CopyFiles */,
+				229B5F2E19B0C03900AD7BA3 /* DDXMLPrivate.h in CopyFiles */,
+				229B5F2F19B0C03900AD7BA3 /* AsyncSocket.h in CopyFiles */,
+				229B5F3019B0C03900AD7BA3 /* AsyncUdpSocket.h in CopyFiles */,
 				229B5E7619B0B45F00AD7BA3 /* FCTools.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +93,37 @@
 		229B5E8819B0B45F00AD7BA3 /* FCToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FCToolsTests-Info.plist"; sourceTree = "<group>"; };
 		229B5E8A19B0B45F00AD7BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		229B5E8C19B0B45F00AD7BA3 /* FCToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCToolsTests.m; sourceTree = "<group>"; };
+		229B5F0819B0BE0900AD7BA3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		229B5F0B19B0BE6000AD7BA3 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		229B5F0C19B0BE6000AD7BA3 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		229B5F0D19B0BE6000AD7BA3 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		229B5F0E19B0BE6000AD7BA3 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		229B5F1319B0BF4800AD7BA3 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		229B5F1419B0BF4800AD7BA3 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		229B5F1619B0BF4800AD7BA3 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		229B5F1719B0BF4800AD7BA3 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		229B5F1819B0BF4800AD7BA3 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		229B5F1919B0BF4800AD7BA3 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		229B5F1A19B0BF4800AD7BA3 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		229B5F1B19B0BF4800AD7BA3 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		229B5F1C19B0BF4800AD7BA3 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		229B5F1D19B0BF4800AD7BA3 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		229B5F1E19B0BF4800AD7BA3 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		229B5F2019B0BF4800AD7BA3 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		229B5F2619B0BF5800AD7BA3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		229B5F3519B0C84800AD7BA3 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		229B5F3719B171D500AD7BA3 /* SamPullVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamPullVC.h; sourceTree = "<group>"; };
+		229B5F3819B171D500AD7BA3 /* SamPullVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamPullVC.m; sourceTree = "<group>"; };
+		229B5F3919B171D500AD7BA3 /* SamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamViewController.h; sourceTree = "<group>"; };
+		229B5F3A19B171D500AD7BA3 /* SamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamViewController.m; sourceTree = "<group>"; };
+		229B5F4719B17D9100AD7BA3 /* SamCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamCircleView.h; sourceTree = "<group>"; };
+		229B5F4819B17D9100AD7BA3 /* SamCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamCircleView.m; sourceTree = "<group>"; };
+		229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLoadingView.h; sourceTree = "<group>"; };
+		229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRLoadingView.m; sourceTree = "<group>"; };
+		229B5F4D19B17DEF00AD7BA3 /* WRLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WRLoadingView.xib; sourceTree = "<group>"; };
+		229B5F4F19B17E1A00AD7BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		229B5F5219B17E8300AD7BA3 /* SamTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamTools.h; sourceTree = "<group>"; };
+		229B5F5319B17E8300AD7BA3 /* SamTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229B5F5019B17E1A00AD7BA3 /* UIKit.framework in Frameworks */,
+				229B5F0919B0BE0900AD7BA3 /* CFNetwork.framework in Frameworks */,
 				229B5E7119B0B45F00AD7BA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +154,7 @@
 		229B5E6419B0B45F00AD7BA3 = {
 			isa = PBXGroup;
 			children = (
+				229B5F3519B0C84800AD7BA3 /* README.txt */,
 				229B5E7219B0B45F00AD7BA3 /* FCTools */,
 				229B5E8619B0B45F00AD7BA3 /* FCToolsTests */,
 				229B5E6F19B0B45F00AD7BA3 /* Frameworks */,
@@ -100,6 +174,9 @@
 		229B5E6F19B0B45F00AD7BA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				229B5F4F19B17E1A00AD7BA3 /* UIKit.framework */,
+				229B5F2619B0BF5800AD7BA3 /* libxml2.dylib */,
+				229B5F0819B0BE0900AD7BA3 /* CFNetwork.framework */,
 				229B5E7019B0B45F00AD7BA3 /* Foundation.framework */,
 				229B5E7E19B0B45F00AD7BA3 /* XCTest.framework */,
 				229B5E8119B0B45F00AD7BA3 /* UIKit.framework */,
@@ -112,6 +189,12 @@
 			children = (
 				229B5E7519B0B45F00AD7BA3 /* FCTools.h */,
 				229B5E7719B0B45F00AD7BA3 /* FCTools.m */,
+				229B5F5119B17E8300AD7BA3 /* SamTools */,
+				229B5F4A19B17DEF00AD7BA3 /* InfoView */,
+				229B5F4619B17D9100AD7BA3 /* CircleView */,
+				229B5F3619B171D500AD7BA3 /* PullHeadFoot */,
+				229B5F1119B0BF4800AD7BA3 /* KissXML */,
+				229B5F0A19B0BE6000AD7BA3 /* AsyncSocket */,
 				229B5E7319B0B45F00AD7BA3 /* Supporting Files */,
 			);
 			path = FCTools;
@@ -141,6 +224,99 @@
 				229B5E8919B0B45F00AD7BA3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229B5F0A19B0BE6000AD7BA3 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F0B19B0BE6000AD7BA3 /* AsyncSocket.h */,
+				229B5F0C19B0BE6000AD7BA3 /* AsyncSocket.m */,
+				229B5F0D19B0BE6000AD7BA3 /* AsyncUdpSocket.h */,
+				229B5F0E19B0BE6000AD7BA3 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+		229B5F1119B0BF4800AD7BA3 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F1219B0BF4800AD7BA3 /* Additions */,
+				229B5F1519B0BF4800AD7BA3 /* Categories */,
+				229B5F1819B0BF4800AD7BA3 /* DDXML.h */,
+				229B5F1919B0BF4800AD7BA3 /* DDXMLDocument.h */,
+				229B5F1A19B0BF4800AD7BA3 /* DDXMLDocument.m */,
+				229B5F1B19B0BF4800AD7BA3 /* DDXMLElement.h */,
+				229B5F1C19B0BF4800AD7BA3 /* DDXMLElement.m */,
+				229B5F1D19B0BF4800AD7BA3 /* DDXMLNode.h */,
+				229B5F1E19B0BF4800AD7BA3 /* DDXMLNode.m */,
+				229B5F1F19B0BF4800AD7BA3 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		229B5F1219B0BF4800AD7BA3 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F1319B0BF4800AD7BA3 /* DDXMLElementAdditions.h */,
+				229B5F1419B0BF4800AD7BA3 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		229B5F1519B0BF4800AD7BA3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F1619B0BF4800AD7BA3 /* NSString+DDXML.h */,
+				229B5F1719B0BF4800AD7BA3 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		229B5F1F19B0BF4800AD7BA3 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F2019B0BF4800AD7BA3 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		229B5F3619B171D500AD7BA3 /* PullHeadFoot */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F3719B171D500AD7BA3 /* SamPullVC.h */,
+				229B5F3819B171D500AD7BA3 /* SamPullVC.m */,
+				229B5F3919B171D500AD7BA3 /* SamViewController.h */,
+				229B5F3A19B171D500AD7BA3 /* SamViewController.m */,
+			);
+			path = PullHeadFoot;
+			sourceTree = "<group>";
+		};
+		229B5F4619B17D9100AD7BA3 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F4719B17D9100AD7BA3 /* SamCircleView.h */,
+				229B5F4819B17D9100AD7BA3 /* SamCircleView.m */,
+			);
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+		229B5F4A19B17DEF00AD7BA3 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */,
+				229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */,
+				229B5F4D19B17DEF00AD7BA3 /* WRLoadingView.xib */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		229B5F5119B17E8300AD7BA3 /* SamTools */ = {
+			isa = PBXGroup;
+			children = (
+				229B5F5219B17E8300AD7BA3 /* SamTools.h */,
+				229B5F5319B17E8300AD7BA3 /* SamTools.m */,
+			);
+			path = SamTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +372,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 229B5E6419B0B45F00AD7BA3;
 			productRefGroup = 229B5E6E19B0B45F00AD7BA3 /* Products */;
@@ -224,7 +401,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229B5F2119B0BF4800AD7BA3 /* DDXMLElementAdditions.m in Sources */,
+				229B5F2419B0BF4800AD7BA3 /* DDXMLElement.m in Sources */,
+				229B5F3C19B171D500AD7BA3 /* SamViewController.m in Sources */,
+				229B5F3B19B171D500AD7BA3 /* SamPullVC.m in Sources */,
+				229B5F1019B0BE6000AD7BA3 /* AsyncUdpSocket.m in Sources */,
+				229B5F4919B17D9100AD7BA3 /* SamCircleView.m in Sources */,
 				229B5E7819B0B45F00AD7BA3 /* FCTools.m in Sources */,
+				229B5F5419B17E8300AD7BA3 /* SamTools.m in Sources */,
+				229B5F0F19B0BE6000AD7BA3 /* AsyncSocket.m in Sources */,
+				229B5F4E19B17DEF00AD7BA3 /* WRLoadingView.m in Sources */,
+				229B5F2519B0BF4800AD7BA3 /* DDXMLNode.m in Sources */,
+				229B5F2319B0BF4800AD7BA3 /* DDXMLDocument.m in Sources */,
+				229B5F2219B0BF4800AD7BA3 /* NSString+DDXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +521,12 @@
 				DSTROOT = /tmp/FCTools.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -344,6 +539,12 @@
 				DSTROOT = /tmp/FCTools.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FCTools/FCTools-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -405,6 +606,7 @@
 				229B5E9219B0B45F00AD7BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229B5E9319B0B45F00AD7BA3 /* Build configuration list for PBXNativeTarget "FCToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +615,7 @@
 				229B5E9519B0B45F00AD7BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

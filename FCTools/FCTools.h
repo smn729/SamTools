@@ -10,4 +10,6 @@
 
 @interface FCTools : NSObject
 
++ (void)sayHello;
+
 @end

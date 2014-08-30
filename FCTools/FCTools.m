@@ -10,4 +10,9 @@
 
 @implementation FCTools
 
++ (void)sayHello
+{
+    NSLog(@"Hello!");
+}
+
 @end
