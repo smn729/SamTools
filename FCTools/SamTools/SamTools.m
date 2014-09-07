@@ -354,9 +354,9 @@
 
 }
 
-+ (int)getID
++ (UInt32)getID
 {
-    int result = 0;
+    UInt32 result = 0;
     
     NSNumber *newID = [[NSUserDefaults standardUserDefaults] objectForKey:ID_Key];
     if (!newID)
@@ -365,7 +365,7 @@
     }
     else
     {
-        result = [newID intValue];
+        result = [newID unsignedLongValue];
         [[NSUserDefaults standardUserDefaults] setObject:@(result + 1) forKey:ID_Key];
     }
     
@@ -400,7 +400,13 @@
 }
 
 
-
++ (void)checkNilToString:(NSObject **)obj
+{
+    if (nil == *obj)
+    {
+        *obj = @"";
+    }
+}
 
 
 

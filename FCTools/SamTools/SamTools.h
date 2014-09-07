@@ -21,6 +21,7 @@
 + (void)reflectFromObject:(NSObject *)fromObject toObject:(NSObject *)toObject;     // 将fromObject的值赋给toObject
 + (NSString *)getUUID;
 + (void)checkNSNull:(NSObject **)obj;                                               // 检查是否为NSNull类型，若是改为nil；
++ (void)checkNilToString:(NSObject **)obj;                                          // 检查是否为nil，若是改为NSString；
 + (BOOL)validateUrl:(NSString *)candidate;                                          // 判断string是否符合HTTP URL规范
 
 + (NSString *)getCacheDir;                                                          // 获取Caches目录
@@ -38,7 +39,8 @@
 
 + (void)makeGrayBordAndRoundCorner:(UIView *)view;                                  // view圆角灰边
 
-+ (int)getID;                                                                       // 获取一个唯一ID号,0开始，每次递增
++ (UInt32)getID;                                                                    // 获取一个唯一ID号,0开始，每次递增
 + (int)getIDWithKey:(NSString *)key;
+
 
 @end
