@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2218992919BCB4630020CC60 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 2218992819BCB4630020CC60 /* IPAddress.c */; };
+		2218992A19BCB48F0020CC60 /* IPAddress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2218992719BCB4490020CC60 /* IPAddress.h */; };
 		228E2BED19B353320075A871 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 228E2BEC19B353320075A871 /* Reachability.m */; };
 		228E2BEE19B3534A0075A871 /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228E2BEB19B353320075A871 /* Reachability.h */; };
 		229B5E7119B0B45F00AD7BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5E7019B0B45F00AD7BA3 /* Foundation.framework */; };
@@ -36,11 +38,9 @@
 		229B5F3B19B171D500AD7BA3 /* SamPullVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F3819B171D500AD7BA3 /* SamPullVC.m */; };
 		229B5F3C19B171D500AD7BA3 /* SamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F3A19B171D500AD7BA3 /* SamViewController.m */; };
 		229B5F4919B17D9100AD7BA3 /* SamCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F4819B17D9100AD7BA3 /* SamCircleView.m */; };
-		229B5F4E19B17DEF00AD7BA3 /* WRLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */; };
 		229B5F5019B17E1A00AD7BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B5F4F19B17E1A00AD7BA3 /* UIKit.framework */; };
 		229B5F5419B17E8300AD7BA3 /* SamTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B5F5319B17E8300AD7BA3 /* SamTools.m */; };
 		229B5F5519B17EDC00AD7BA3 /* SamTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F5219B17E8300AD7BA3 /* SamTools.h */; };
-		229B5F5619B17EDC00AD7BA3 /* WRLoadingView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */; };
 		229B5F5719B17EDC00AD7BA3 /* SamCircleView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F4719B17D9100AD7BA3 /* SamCircleView.h */; };
 		229B5F5819B17EDC00AD7BA3 /* SamPullVC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229B5F3719B171D500AD7BA3 /* SamPullVC.h */; };
 /* End PBXBuildFile section */
@@ -62,9 +62,9 @@
 			dstPath = "$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2218992A19BCB48F0020CC60 /* IPAddress.h in CopyFiles */,
 				228E2BEE19B3534A0075A871 /* Reachability.h in CopyFiles */,
 				229B5F5519B17EDC00AD7BA3 /* SamTools.h in CopyFiles */,
-				229B5F5619B17EDC00AD7BA3 /* WRLoadingView.h in CopyFiles */,
 				229B5F5719B17EDC00AD7BA3 /* SamCircleView.h in CopyFiles */,
 				229B5F5819B17EDC00AD7BA3 /* SamPullVC.h in CopyFiles */,
 				229B5F2819B0C03900AD7BA3 /* DDXMLElementAdditions.h in CopyFiles */,
@@ -82,6 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2218992719BCB4490020CC60 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		2218992819BCB4630020CC60 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
 		228E2BEB19B353320075A871 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		228E2BEC19B353320075A871 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		229B5E6D19B0B45F00AD7BA3 /* libFCTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFCTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,9 +120,6 @@
 		229B5F3A19B171D500AD7BA3 /* SamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamViewController.m; sourceTree = "<group>"; };
 		229B5F4719B17D9100AD7BA3 /* SamCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamCircleView.h; sourceTree = "<group>"; };
 		229B5F4819B17D9100AD7BA3 /* SamCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamCircleView.m; sourceTree = "<group>"; };
-		229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLoadingView.h; sourceTree = "<group>"; };
-		229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRLoadingView.m; sourceTree = "<group>"; };
-		229B5F4D19B17DEF00AD7BA3 /* WRLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WRLoadingView.xib; sourceTree = "<group>"; };
 		229B5F4F19B17E1A00AD7BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		229B5F5219B17E8300AD7BA3 /* SamTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamTools.h; sourceTree = "<group>"; };
 		229B5F5319B17E8300AD7BA3 /* SamTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamTools.m; sourceTree = "<group>"; };
@@ -151,6 +150,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2218992619BCB4320020CC60 /* IPAdress */ = {
+			isa = PBXGroup;
+			children = (
+				2218992719BCB4490020CC60 /* IPAddress.h */,
+				2218992819BCB4630020CC60 /* IPAddress.c */,
+			);
+			path = IPAdress;
+			sourceTree = "<group>";
+		};
 		228E2BEA19B353320075A871 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,9 +204,9 @@
 		229B5E7219B0B45F00AD7BA3 /* FCTools */ = {
 			isa = PBXGroup;
 			children = (
+				2218992619BCB4320020CC60 /* IPAdress */,
 				228E2BEA19B353320075A871 /* Reachability */,
 				229B5F5119B17E8300AD7BA3 /* SamTools */,
-				229B5F4A19B17DEF00AD7BA3 /* InfoView */,
 				229B5F4619B17D9100AD7BA3 /* CircleView */,
 				229B5F3619B171D500AD7BA3 /* PullHeadFoot */,
 				229B5F1119B0BF4800AD7BA3 /* KissXML */,
@@ -308,16 +316,6 @@
 			path = CircleView;
 			sourceTree = "<group>";
 		};
-		229B5F4A19B17DEF00AD7BA3 /* InfoView */ = {
-			isa = PBXGroup;
-			children = (
-				229B5F4B19B17DEF00AD7BA3 /* WRLoadingView.h */,
-				229B5F4C19B17DEF00AD7BA3 /* WRLoadingView.m */,
-				229B5F4D19B17DEF00AD7BA3 /* WRLoadingView.xib */,
-			);
-			path = InfoView;
-			sourceTree = "<group>";
-		};
 		229B5F5119B17E8300AD7BA3 /* SamTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,7 +415,7 @@
 				229B5F4919B17D9100AD7BA3 /* SamCircleView.m in Sources */,
 				229B5F5419B17E8300AD7BA3 /* SamTools.m in Sources */,
 				229B5F0F19B0BE6000AD7BA3 /* AsyncSocket.m in Sources */,
-				229B5F4E19B17DEF00AD7BA3 /* WRLoadingView.m in Sources */,
+				2218992919BCB4630020CC60 /* IPAddress.c in Sources */,
 				228E2BED19B353320075A871 /* Reachability.m in Sources */,
 				229B5F2519B0BF4800AD7BA3 /* DDXMLNode.m in Sources */,
 				229B5F2319B0BF4800AD7BA3 /* DDXMLDocument.m in Sources */,

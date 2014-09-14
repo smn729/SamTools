@@ -9,6 +9,7 @@
 #import "SamTools.h"
 #import <objc/runtime.h>
 #import <AVFoundation/AVFoundation.h>
+#import "IPAddress.h"
 
 @implementation SamTools
 
@@ -406,6 +407,14 @@
     {
         *obj = @"";
     }
+}
+
++ (NSString *)getLocalHost
+{
+    InitAddresses();
+    GetIPAddresses();
+//    GetHWAddresses();
+    return [NSString stringWithFormat:@"%s", ip_names[1]];
 }
 
 

@@ -40,7 +40,9 @@
 + (void)makeGrayBordAndRoundCorner:(UIView *)view;                                  // view圆角灰边
 
 + (UInt32)getID;                                                                    // 获取一个唯一ID号,0开始，每次递增
-+ (int)getIDWithKey:(NSString *)key;
++ (int)getIDWithKey:(NSString *)key;                                                // 获取一个每次递增的ID，以key为键值
++ (NSString *)getLocalHost;
+
 
 
 @end
